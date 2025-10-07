@@ -19,8 +19,6 @@ body {
     font-family: var(--font-family);
     color: var(--slate);
     background-color: var(--white);
-    width: 1440px;
-    height: 3300px;
 }
 ul {
     list-style-type: none;
@@ -31,9 +29,10 @@ a {
 }
   /* HEADER */
 .logo {
+    font-family: var(--second-family);
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
@@ -55,7 +54,9 @@ a {
 .menu-link:focus {
     color: var(--ocean);
 }
-
+.address{
+    font-style: normal;
+}
 .address-link {
     font-weight: 400;
     font-size: 16px;
@@ -74,7 +75,7 @@ a {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
      text-align: center;
     color: var(--white);
@@ -108,13 +109,14 @@ a {
 .team-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: var(--navy-blue);
 }
 .team-list {
-    background: var(--white);
+    background: var(--cloud);
 }
 .team-item-title {
     font-weight: 500;
@@ -133,10 +135,11 @@ a {
 .portfolio-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy-blue);
+    text-transform: capitalize;
 }
 .portfolio-item-title {
     font-weight: 500;
